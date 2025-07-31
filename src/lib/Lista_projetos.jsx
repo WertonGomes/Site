@@ -3,7 +3,7 @@ export const ListaProjetos = [
   {
     id: 0,
     imagem: Uebity,
-    name: "Uebity",
+    name: "Uebeti",
     link: "https://ewertonslv.artstation.com/projects/GvP9Oz",
   },
   {

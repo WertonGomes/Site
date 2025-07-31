@@ -9,13 +9,13 @@ import Blender from "../assets/Icons/Habilidades/blender.png";
 
 
 const habArray = [
-    {id: 1, icone: PhotoShopIcon, name: "PhotoShop"},
-    {id: 2, icone: Clip, name: "ClipStudio"},
-    {id: 3, icone: Github, name: "Github"},
-    {id: 4, icone: Unity, name: "Unity"},
-    {id: 5, icone: Unreal, name: "Unreal"},
-    {id: 6, icone: Blender, name: "Blender"},
-    // {id: 7, icone: "https://example.com/icon7.svg
+  { id: 1, icone: PhotoShopIcon, name: "Photoshop" },
+  { id: 2, icone: Clip, name: "Clipstudio" },
+  { id: 3, icone: Github, name: "Github" },
+  { id: 4, icone: Unity, name: "Unity" },
+  { id: 5, icone: Unreal, name: "Unreal" },
+  { id: 6, icone: Blender, name: "Blender" },
+  // {id: 7, icone: "https://example.com/icon7.svg
 ]
 export const Habilidades = () => {
   return (
@@ -24,9 +24,9 @@ export const Habilidades = () => {
       <Line />
       <ul className="grid grid-cols-2 gap-4 mt-2 sm:grid-cols-2 md:grid-cols-3">
         {habArray.map((hab) => (
-        <li key={hab.id} className="flex flex-col items-center justify-center">
+          <li key={hab.id} className="flex flex-col items-center justify-center">
             <IconHab icone={hab.icone} name={hab.name} />
-        </li>
+          </li>
         ))}
       </ul>
     </>
