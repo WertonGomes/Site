@@ -6,10 +6,12 @@ export const ListaProjetos = [
     name: "Uebeti",
     link: "https://ewertonslv.artstation.com/projects/GvP9Oz",
   },
+  /*
   {
     id: 1,
     imagem: Uebity,
     name: "Grief",
     link: "https://ewertonslv.artstation.com/projects/eRv92J",
   },
+  */
 ];
